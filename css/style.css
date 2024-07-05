@@ -1,0 +1,140 @@
+#home {
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+}
+#home .home-overlay {
+    background-color: rgba(214, 46, 51, 0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+#home .home-overlay .content h2 {
+    font-size: 60px;
+}
+@media only screen and (max-width: 768px) {
+    #home .home-overlay .content h2 {
+        font-size: 20px;
+    }
+}
+#home .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+#home .sidebar .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+#home .sidebar a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+#home .sidebar a:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+#home .openSidebar {
+    cursor: pointer;
+}
+/* start singers section  */
+#singers {
+    margin: 80px auto;
+}
+#singers h3 {
+    background-color: rgba(214, 46, 51, 0.6);
+    padding: 10px;
+    color: white;
+    margin: 0;
+    cursor: pointer;
+}
+#singers p {
+    background-color: #ccc;
+    padding: 10px;
+    margin: 0;
+}
+#singers div {
+    display: none;
+}
+#singers .active {
+    display: block;
+}
+/* end singers section  */
+/* start count section  */
+#count {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 350px;
+    position: relative;
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 768px) {
+    #count {
+        height: 600px;
+    }
+}
+#count .count-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+}
+#count .container .box {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+/* end count section  */
+/* start contact section  */
+#contact {
+    margin-top: 50px;
+}
+#contact p {
+    color: #777;
+    text-align: center  ;
+}
+#contact form button {
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+}
+#contact .socials i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+#contact .socials i:hover {
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+/* end contact section  */
